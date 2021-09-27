@@ -1,0 +1,17 @@
+---
+title: "r_studio"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Programming assignment 1
+
+```{r}
+for(i in 1:10)
+  print(i)
+
+```
+
